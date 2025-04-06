@@ -1,0 +1,5 @@
+pandas
+pdfminer.six
+nltk
+scikit-learn
+sqlite3-binary
