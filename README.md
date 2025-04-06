@@ -19,24 +19,6 @@ SmartHire AI is a complete multi-agent system that streamlines the recruitment p
 -  Outputs: `shortlisted.csv`, database records, and emails
 
 
-## Folder Structure
-
-SmartHire_AI/
-├── agents/
-│   ├── jd_summarizer.py
-│   ├── resume_parser.py
-│   ├── matcher.py
-│   ├── shortlister.py
-│   ├── scheduler.py
-│   └── storage.py
-├── resumes/               # Input: 200 candidate resumes (PDF)
-├── job_description.csv    # Input: Job Description file
-├── shortlisted.csv        # Output: Final shortlisted candidates
-├── emails/                # Output: Interview invitation emails
-├── smarthire.db           # SQLite database file
-├── run.py                 # Main runner script
-└── README.md
-
 ## Setup Instructions
 
 1. Install Dependencies
